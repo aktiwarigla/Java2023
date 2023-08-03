@@ -1,0 +1,49 @@
+1. Which component is used to compile, debug and execute java program?
+a) JVM
+b) JDK
+c) JIT
+d) JRE
+
+2. Which component is responsible for converting bytecode into machine specific code?
+a) JVM
+b) JDK
+c) JIT
+d) JRE
+
+3. Which component is responsible to run java program?
+a) JVM
+b) JDK
+c) JIT
+d) JRE
+
+4. Which component is responsible to optimize bytecode to machine code?
+a) JVM
+b) JDK
+c) JIT
+d) JRE
+
+5. Which statement is true about java?
+a) Platform independent programming language
+b) Platform dependent programming language
+c) Code dependent programming language
+d) Sequence dependent programming language
+
+6. What is the extension of java code files?
+a) .class
+b) .java
+c) .txt
+d) .js
+
+
+7. What is the extension of compiled java classes?
+a) .class
+b) .java
+c) .txt
+d) .js
+
+
+8. How can we identify whether a compilation unit is class or interface from a .class file?
+a) Java source file header
+b) Extension of compilation unit
+c) We cannot differentiate between class and interface
+d) The class or interface name should be postfixed with unit type
