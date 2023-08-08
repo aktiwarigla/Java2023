@@ -1,0 +1,142 @@
+******************** data type ***************************************************
+Which of the following is a primitive data type in Java?
+a) String
+b) Integer
+c) Float
+d) Object
+e) None of the above
+
+What is the size of the 'char' data type in Java?
+a) 4 bytes
+b) 2 bytes
+c) 8 bytes
+d) 1 byte
+e) It varies depending on the system architecture
+
+What is the default value of the 'boolean' data type in Java?
+a) true
+b) false
+c) 0
+d) 1
+e) null
+
+Which data type should be used to store a whole number (integer) in Java?
+a) int
+b) float
+c) double
+d) byte
+e) long
+
+Which of the following is a reference data type in Java?
+a) char
+b) boolean
+c) byte
+d) int
+e) String
+
+What is the maximum value that can be stored in a 'short' data type in Java?
+a) 127
+b) 32,767
+c) 65,535
+d) 2,147,483,647
+e) 9,223,372,036,854,775,807
+
+Which data type should be used to store a decimal number with 15 digits of precision in Java?
+a) double
+b) float
+c) decimal
+d) long
+e) short
+
+What happens if you try to store a value larger than the maximum value of a data type?
+a) The value is truncated to fit the maximum value.
+b) An exception is thrown at runtime.
+c) The compiler automatically converts it to the appropriate data type.
+d) The program crashes.
+e) incompatible types.
+
+Which data type should be used to represent a single letter in Java?
+a) char
+b) String
+c) letter
+d) int
+e) float
+
+How many bytes are used to store a 'double' data type in Java?
+a) 4 bytes
+b) 8 bytes
+c) 16 bytes
+d) 2 bytes
+e) It varies depending on the system architecture
+
+************************************ java  literal ******************************************
+Which of the following is a valid numeric literal in Java?
+a) 3.14f
+b) "Hello"
+c) 'A'
+d) true
+e) None of the above
+
+What is the value of the hexadecimal literal 0xFF in decimal?
+a) 255
+b) 128
+c) 100
+d) 15
+e) 225
+
+Which of the following is the correct way to represent a character literal in Java?
+a) "A"
+b) '65'
+c) A
+d) "65"
+e) 'A'
+
+What does the suffix 'L' or 'l' represent when suffixed to a numeric literal in Java?
+a) The literal is a long data type.
+b) The literal is a double data type.
+c) The literal is a float data type.
+d) The literal is a short data type.
+e) The literal is a byte data type.
+
+Which of the following is a valid boolean literal in Java?
+a) "true"
+b) 1
+c) 'false'
+d) true
+e) 0
+
+What does the 'f' or 'F' suffix represent when suffixed to a numeric literal in Java?
+a) The literal is a float data type.
+b) The literal is a long data type.
+c) The literal is a double data type.
+d) The literal is a byte data type.
+e) The literal is a short data type.
+
+Which escape sequence represents a newline character in Java?
+a) \t
+b) \n
+c) \r
+d) \b
+e) \s
+
+What is the value of the binary literal 0b1010 in decimal?
+a) 10
+b) 5
+c) 8
+d) 16
+e) 2
+
+Which of the following is a valid string literal in Java?
+a) 'Hello'
+b) "Hello"
+c) "Hello World
+d) Hello
+e) None of the above
+
+What is the purpose of using underscores in numeric literals in Java?
+a) To indicate that the literal is a double data type.
+b) To improve readability by separating digits.
+c) To indicate that the literal is a float data type.
+d) To indicate that the literal is a long data type.
+e) Underscores are not allowed in numeric literals in Java.
+

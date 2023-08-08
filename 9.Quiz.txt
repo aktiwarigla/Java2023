@@ -1,0 +1,160 @@
+Sample.java file contains class A, B and C. How Many .class 
+file will be created after compiling Sample.java?
+What is your observation?
+
+Sample.java
+-----------
+class A{
+void m1(){}
+}
+
+class B{
+void m2(){}
+}
+
+class C{
+void m3(){}
+}
+
+
+*************************************************************************
+What will be the result if you try to compile and execute the 
+following program?
+Reason out:
+Sample.java
+-------------------
+class Sample  {
+public static void main() {
+System.out.println("Welcome");
+	}
+
+}
+
+
+a. Compilation Error
+b. Runtime Error
+c. The program compiles and executes successfully but prints nothing.
+d. it will print "Welcome"
+
+*************************** command line ************************
+What will be the result if you try to compile and execute the following code
+without passing any command line argument?
+class Sample{
+public static void main(String[] args){
+   int len  = args.length;
+  System.out.println(len);
+
+}
+}
+
+a. Compilation Error
+b. Runtime Error.
+c. The program compiles and executes successfully but print nothing.
+d the program compiles and executes successfully and print 0.
+
+
+******** data type *************************************************************************
+
+ what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+int for = 2;
+System.out.print(for);
+
+	}
+
+}
+
+********************************************************************************************
+
+what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+byte b = 128;
+System.out.print(b);
+
+}
+
+}
+
+*************************************************************************************************
+what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+float f = 12.10;
+boolean b = 1;
+System.out.print(f);
+System.out.print(b);
+
+}
+
+}
+
+***********************************************************************************
+what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+double d = 12.10D;
+System.out.print(d);
+
+
+}
+
+}
+
+***********************************************************************************
+what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+int a = 10,b = 0b1010,c = 012, d = 0xa;
+System.out.print(a+" "+b+" "+c+" "+d);
+
+
+}
+
+}
+
+***********************************************************************************
+what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+int 9A = 10;
+System.out.print(9A);
+
+
+}
+
+}
+
+***********************************************************************************
+what will be the result, if we try to compile and execute following code?
+class Test{
+public static void main(String[] args){
+
+int x;
+System.out.print(x);
+
+
+}
+
+}
+
+***********************************************************************************
+
+
+Match The Following table.
+
+____________________________
+DATA type    |   SIZE(byte) |
+_____________|______________|
+char         |    4	    |
+byte         | 	  2	    |
+int          |    1         |
+double       |    8         |
+_____________|______________|
