@@ -72,7 +72,7 @@ what will be the result, if we try to compile and execute following code?
 class Test{
 public static void main(String[] args){
 
-byte b = 128;
+byte b = 127;
 System.out.print(b);
 
 }
