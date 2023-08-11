@@ -1,0 +1,100 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter byte Number: ");
+		byte a = sc.nextByte();
+		System.out.println("Number is : "+a);
+		
+		System.out.print("Enter Short Number: ");
+		short b = sc.nextShort();
+		System.out.println("Number is : "+b);
+		
+		System.out.print("Enter int Number: ");
+		int c = sc.nextInt();
+		System.out.println("Number is : "+c);
+		
+		
+	
+		
+		System.out.print("Enter long Number: ");
+		long e = sc.nextLong();
+		System.out.println("Number is : "+e);
+		
+		System.out.print("Enter float Number: ");
+		float f = sc.nextFloat();
+		System.out.println("Number is : "+f);
+		
+		
+		
+		System.out.print("Enter double Number: ");
+		double g = sc.nextDouble();
+		System.out.println("Number is : "+g);
+		
+		
+		System.out.print("Enter char Value: ");
+		char h = sc.next().charAt(0);
+		System.out.println("Character is : "+h);
+		
+	
+		System.out.print("Enter boolean Value[true | false]: ");
+		boolean i = sc.nextBoolean();
+		System.out.println("value  is : "+i);
+		
+		
+		
+		System.out.print("Enter Single word: ");
+		String j = sc.next();
+		System.out.println("string  is : "+j);
+		
+		
+		
+		
+		
+		System.out.print("Enter multiple word: ");
+		String k = sc.nextLine();
+		System.out.println("string  is : "+k);
+		
+	}
+
+}
+
+*******************************************************************************************************
+
+Here are some practice questions related to using the Scanner class in Java:
+
+1. Write a Java program that takes two integer inputs from the user and prints their sum.
+
+2. Develop a program that reads a user's name as a string and their age as an integer, 
+   and then displays a message including both the name and age.
+
+3. Create a program that reads a floating-point number from the user and 
+   calculates its square root using the Math.sqrt() function. Display the result.
+
+4. Write a Java program that reads a sentence from the user and counts the number 
+  of words in it. Assume that words are separated by spaces.
+
+5. Develop a program that takes a user input in degrees Celsius and converts it to 
+  Fahrenheit using the formula F = C * 9/5 + 32. Display the converted temperature.
+
+6. Implement a program that prompts the user to enter three words and then prints 
+   them in reverse order.
+
+7. Create a program that reads an integer from the user and checks whether it's 
+   an even or odd number. Display an appropriate message.
+
+8. Write a Java program that reads a line of text from the user and converts it 
+  to uppercase using the toUpperCase() method. Display the uppercase text.
+
+9. Develop a program that takes two double inputs, representing the base and height of 
+   a triangle, and calculates its area using the formula area = 0.5 * base * height.
+   Display the calculated area.
+
+10. Implement a program that reads a string from the user and checks if it's a palindrome 
+   (reads the same backward as forward). Display whether it's a palindrome or not.
+
+Remember to import the java.util.Scanner class at the beginning of your programs before using it.
