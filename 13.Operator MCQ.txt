@@ -1,0 +1,104 @@
+1. Which operator is used for equality comparison in Java?
+a) +
+b) =
+c) ==
+d) &&
+
+****************************************************************************************
+
+2. Which operator is used for arithmetic addition in Java? 
+a) +
+b) -
+c) *
+d) /
+
+
+****************************************************************************************
+
+3. What is the output of the following program?
+public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = x++;
+        System.out.println(y);
+    }
+}
+a) 10
+b) 11
+c) 9
+d) Compile-time error
+
+****************************************************************************************
+
+4. Which operator is used for performing logical AND in Java? 
+a) &&
+b) ||
+c) !
+d) &
+
+
+****************************************************************************************
+
+5. What is the output of the following program?
+public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 2;
+        int result = x % y;
+        System.out.println(result);
+    }
+}
+a) 2
+b) 2.5
+c) 1
+d) 0
+
+
+****************************************************************************************
+
+6. What is the output of the following program?
+public class Main {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        boolean result = a || b;
+        System.out.println(result);
+    }
+}
+a) true
+b) false
+c) Compile-time error
+d) Runtime error
+
+
+****************************************************************************************
+
+7. What is the output of the following program?
+public class Main {
+    public static void main(String[] args) {
+        int x = 7;
+        int y = 3;
+        System.out.println(x > y ? "x is greater" : "y is greater");
+    }
+}
+a) x is greater
+b) y is greater
+c) true
+d) false
+
+
+****************************************************************************************
+
+8. Which operator is used to increment a variable by one in Java? 
+a) ++
+b) --
+c) +=
+d) *=
+
+****************************************************************************************
+
+9. Which operator is used for performing string concatenation in Java? 
+a) +
+b) -
+c) *
+d) /
