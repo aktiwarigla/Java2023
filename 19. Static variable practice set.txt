@@ -1,0 +1,123 @@
+class Student{
+	static String collegeNmae;
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Student.collegeNmae);
+		
+	}
+
+}
+
+*****************************************************************************
+class Student{
+	static String collegeNmae;
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student();
+		System.out.println(s1.collegeNmae);
+		
+	}
+
+}
+
+*****************************************************************************************
+class Student {
+	static String collegeNmae;
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Student.collegeNmae = "GLA";
+
+		Student s1 = new Student();
+		Student s2 = new Student();
+		Student s3 = new Student();
+		System.out.println(s1.collegeNmae);
+		System.out.println(s2.collegeNmae);
+		System.out.println(s3.collegeNmae);
+
+	}
+
+}
+***************************************************************************
+
+class Student {
+	static String collegeNmae;
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Student.collegeNmae = "GLA";
+
+		Student s1 = new Student();
+		Student s2 = new Student();
+		Student s3 = new Student();
+		
+		s1.collegeNmae = "IIT Delhi";
+		
+		System.out.println(s1.collegeNmae);
+		System.out.println(s2.collegeNmae);
+		System.out.println(s3.collegeNmae);
+
+	}
+
+}
+*********************************************************************************************
+
+
+public class Main {
+	
+	 static float var_1 = 23.90f;   // static variable
+	 double var_2 = 555.00;    // non static variable
+	
+	public static void main(String[] args) {
+      
+		System.out.println(var_1);  // 23.90
+		System.out.println(var_2); // error
+	}
+}
+
+
+
+************************************************************************
+public class Main {
+	
+	 static float var_1 = 23.90f;   // static variable
+	 double var_2 = 555.00;    // non static variable
+	
+	public static void main(String[] args) {
+         
+		
+		System.out.println(Main.var_1);   //  23.90
+		System.out.println(Main.var_2);  // error
+	}
+}
+
+*****************************************************************************
+public class Main {
+	
+	 static float var_1 = 23.90f;   // static variable
+	 double var_2 = 555.00;    // non static variable
+	
+	public static void main(String[] args) {
+         
+		Main m = new Main();
+		
+		System.out.println(m.var_1); // 23.90
+		System.out.println(m.var_2);  // 555.0
+	}
+}
+
+********************************************************************************************

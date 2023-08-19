@@ -1,0 +1,362 @@
+public class Student {
+
+	String name;
+	int age;
+	float cpi;
+	
+}
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		s1.age = 22;
+		s1.name = "Abhishek";
+		s1.cpi = 9.0f;
+	
+		System.out.println("name: "+s1.name);
+		System.out.println("age: "+s1.age);
+		System.out.println("cpi: "+s1.cpi);
+		
+	}
+
+}
+
+OUTPUT: 
+
+
+*******************************************************************************************
+
+How many objects can you create from a class?
+
+Objects are instances of classes; you can create as many objects as 
+you need once you have defined a class
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		Student s2 = new Student();
+		Student s3 = new Student();
+		Student s4 = new Student();
+		
+		s1.age = 22;
+		s1.name = "Abhishek";
+		s1.cpi = 9.0f;
+
+		s2.age = 21;
+		s2.name = "Anil";
+		s2.cpi = 8.0f;
+		
+		
+		s3.age = 20;
+		s3.name = "Rahul";
+		s3.cpi = 7.0f;
+		
+		s4.age = 22;
+		s4.name = "Rohit";
+		s4.cpi = 8.7f;
+		
+		System.out.printf("%-20s%-20s%-20s \n","NAME","AGE","CPI");
+		System.out.printf("%-20s%-20s%-20s \n",s1.name,s1.age,s1.cpi);
+		System.out.printf("%-20s%-20s%-20s \n",s2.name,s2.age,s2.cpi);
+		System.out.printf("%-20s%-20s%-20s \n",s3.name,s3.age,s3.cpi);
+		System.out.printf("%-20s%-20s%-20s \n",s4.name,s4.age,s4.cpi);
+		
+		// default value of instance variable in java
+
+	//	Student s5 = new Student();
+	//	System.out.printf("%-20s%-20s%-20s \n",s5.name,s5.age,s5.cpi);
+		
+		
+		
+		
+	}
+
+}
+
+******************************************************************************************************
+
+// default value of instance variable in java
+
+Who provides default values for instance variable?
+JVM provides default values for instance variables,
+why not for local variables? Local variables are declared mostly 
+to do some calculation.So its the programmer decision to give the value 
+to the variable and it should not take default value .
+_______________________________________________________________________________
+
+public class Customer {
+
+	byte varByte;
+	short varShort;
+	int varInt;
+	long varLong;
+	float varFloat;
+	double varDouble;
+	char varChar;
+	boolean varBoolean;
+	
+	String varString;
+	
+}
+
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		Customer c1 = new Customer();
+		System.out.println("byte : "+ c1.varByte);
+		System.out.println("short : "+ c1.varShort);
+		System.out.println("int : "+ c1.varInt);
+		System.out.println("long : "+ c1.varLong);
+		System.out.println("float : "+ c1.varFloat);
+		System.out.println("double : "+ c1.varDouble);
+		System.out.println("char : "+ c1.varChar);
+		System.out.println("boolean : "+ c1.varBoolean);		
+		System.out.println("String : "+ c1.varString);
+
+	}
+
+}
+
+OUTPUT:
+
+***********************************************************************************
+
+initialization of instance variable in java
+
+_______________________________________________
+
+
+
+public class Student {
+
+	String name = "unknown";
+	int age = 0;
+	float cpi = 0.0f;
+	
+}
+
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		System.out.println(s1.name);
+		System.out.println(s1.age);
+		System.out.println(s1.cpi);
+
+
+
+}}
+
+**********************************************************************************************
+
+object reference in java
+
+
+public class Employee {
+
+	String empName;
+	String empId;
+	
+}
+
+public class Tester {
+
+	public static void main(String[] args) {
+
+		Employee e1;
+		Employee e2;
+
+		e1 = new Employee();
+
+		e2 = e1;
+
+		e1.empId = "1001";
+		e1.empName = "ram prasad bismil";
+
+		e2.empId = "22222";
+		e2.empName = "subhash chandra bose";
+
+		System.out.println("name -> " + e1.empName + " , ID -> " + e1.empId);
+		System.out.println("name -> " + e2.empName + " , ID -> " + e2.empId);
+
+		System.out.println(e1.hashCode());
+
+		System.out.println(e2.hashCode());
+
+	}
+
+}
+
+OUTPUT:
+
+REMARKS:
+
+***********************************************************************************************
+
+public class Employee {
+
+	String empName;
+	String empId;
+	
+}
+
+public class Tester {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee();
+		System.out.println(e1);
+
+	}
+}
+OUTPUT:
+
+REMARKS:
+
+***************************************************************************************
+public class Employee {
+
+	String empName;
+	String empId;
+
+       public String toString(){
+		return empName + " " + empId;
+	}
+	
+}
+
+public class Tester {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee();
+		System.out.println(e1);
+
+	}
+}
+OUTPUT:
+
+REMARKS:
+
+***************************************************************************************
+
+public class Employee {
+
+	String empName;
+	String empId;
+
+       public String toString(){
+		return empName + " " + empId;
+	}
+	
+}
+
+public class Tester {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee();
+		e1.empName = "your name here";
+		e1.empId = "1001";
+		System.out.println(e1);
+
+	}
+}
+OUTPUT:
+
+REMARKS:
+
+***************************************************************************************
+
+public class Employee {
+
+	String empName;
+	String empId;
+	
+}
+
+public class Tester {
+         
+	Employee e = new Employee();
+	public static void main(String[] args) {
+
+		Tester  t = new Tester();
+		System.out.println(t.e1);
+
+	}
+}
+OUTPUT:
+
+REMARKS:
+
+***************************************************************************************
+public class Employee {
+
+	String empName;
+	String empId;
+	
+}
+
+public class Tester {
+         
+	Employee e;
+	public static void main(String[] args) {
+
+		Tester  t = new Tester();
+		System.out.println(t.e1);
+
+	}
+}
+OUTPUT: 
+
+REMARKS:
+
+***************************************************************************************
+public class Tester {
+
+	public static void main(String[] args) {
+
+		Employee e1;
+		System.out.println(e1);
+
+	}
+}
+
+OUTPUT:
+
+REMARKS:
+
+***********************************************************************************
+
+
+public class Job {
+     String role;
+     long salary;
+     int id;
+ }
+
+public class Person {
+	String name = "";
+    Job varJob = new Job();
+}
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Person p = new Person();
+		p.name = "Abhi";
+		p.varJob.id = 10;
+		p.varJob.role = "management";
+		p.varJob.salary = 120000;
+		
+	}
+
+}
+********************************************************************************
