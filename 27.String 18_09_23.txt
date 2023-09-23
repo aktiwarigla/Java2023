@@ -1,0 +1,62 @@
+String class constructors:
+1)	String s=new String();
+•	Creates an empty String Object.
+2)	String s=new String(String literals);
+•	To create an equivalent String object for the given String literal on the heap.
+3)	String s=new String(StringBuffer sb);
+•	Creates an equivalent String object for the given StringBuffer.
+4)	String s=new String(char[] ch);
+
+5)	String s=new String(byte[] b);	
+•	For the given byte[] we can create a String.
+
+Important methods of String class:
+1)	public char charAt(int index);
+•	Returns the character locating at specified index.
+
+2)	public String concat(String str);
+•	The overloaded “+” and “+=” operators also meant for concatenation purpose only.
+3)	public boolean equals(Object o);
+
+•	For content compression where case is important.
+•	It is the overriding version of Object class .equals() method.
+
+4)	public boolean equalsIgnoreCase(String s);
+•	For content compression where case is not important.
+5)	public String substring(int begin);
+•	Return the substring from begin index to end of the string.
+6)	public String substring(int begin, int end);
+•	Returns the substring from begin index to end-1 index.
+
+7)	public int length();
+•	Returns the no of characters present in the string.
+8)	public String replace(char old,char new);
+•	To replace every old character with a new character.
+9)	public String toLowerCase();
+•	Converts the all characters of the string to lowercase.
+10)	public String toUpperCase();
+•	Converts the all characters of the string to uppercase.
+11)	public String trim()
+•	We can use this method to remove blank spaces present at beginning and end of the string but not blank spaces present at middle of the String.
+12)	public int indexOf(char ch);
+•	It returns index of 1st occurrence of the specified character if the specified character is not available then return -1.
+13)	public int lastIndexOf(Char ch);
+•	It returns index of last occurrence of the specified character if the specified character is not available then return -1.
+
+
+Note: 
+•	Because runtime operation if there is a change in content with those changes a 
+	new object will be created only on the heap but not in SCP.
+•	If there is no change in content no new object will be created the same 
+	object will be reused.
+
+
+	String s1="bhaskar";
+	String s2=s1.toUpperCase();
+	String s3=s1.toLowerCase();
+	System.out.println(s1==s2);
+	System.out.println(s1==s3);
+
+
+
+
